@@ -1,0 +1,634 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #011732;
+}
+
+#header {
+  background-image: linear-gradient(180deg, #011631cf, #011732);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* NAVBAR */
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 27px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+a.navbar-brand:hover {
+  color: #fff !important;
+}
+
+.navbar ul.navbar-nav li a {
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #fff !important;
+}
+
+.navbar ul.navbar-nav li a.active {
+  color: #0ec9ac !important;
+}
+
+.navbar ul.navbar-nav li a:hover {
+  color: #0ec9ac !important;
+}
+
+li.nav-item {
+  margin-left: 19px;
+}
+
+.d-flex.header-btn {
+  margin-left: 66px;
+}
+
+.d-flex.header-btn a {
+  text-decoration: none;
+  background: #0ec9ac;
+  color: #fff;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+/* AKHIR NAVBAR */
+
+/* HERO */
+#hero {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.hero-left-content h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 61px;
+  margin-bottom: 20px;
+}
+
+.hero-left-content p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.6;
+}
+
+.learn-more-btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #0ec9ac;
+  color: #fff;
+  padding: 19px 40px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.learn-more-btn {
+  margin-top: 60px;
+}
+
+.hero-right-content img {
+  width: 100%;
+}
+/* AKHIR HERO */
+
+/* INFO PANEL */
+#info-panel {
+  padding: 50px 0;
+}
+
+.info-panel-item {
+  background: #021f42;
+  border-radius: 7px;
+  padding: 35px 43px;
+}
+
+.info-panel-item.kedua {
+  padding-bottom: 9px;
+}
+
+.info-panel-item:hover {
+  cursor: pointer;
+  transition: all 0.6s;
+  transform: translateY(-10px);
+}
+
+.info-panel-item h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.info-panel-item h2 span img {
+  width: 10%;
+  margin-top: -11px;
+  margin-right: 10px;
+}
+
+.info-panel-item p {
+  color: #fff;
+  opacity: 0.6;
+  font-size: 15px;
+  margin-top: 15px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+/* AKHIR INFO PANEL */
+
+/* TRUSTED COMPANY */
+#trusted-company {
+  padding: 60px 0;
+}
+
+.trusted-title {
+  margin-bottom: 52px;
+  text-align: center;
+}
+
+.trusted-brand-logo img {
+  width: 63%;
+}
+
+.trusted-brand-logo img:hover {
+  cursor: pointer;
+}
+
+.trusted-brand-logo {
+  text-align: center;
+}
+
+.trusted-title h2 {
+  color: #fff;
+  font-size: 29px;
+}
+/* AKHIR TRUSTED COMPANY*/
+
+/* WELCOME KEVIN'S */
+#welcome-left-image {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 755px;
+  border-top-right-radius: 17px;
+}
+
+#welcome-kevins {
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.well-come-box-left {
+  width: 46%;
+  background: #011732;
+  color: #fff;
+  padding: 36px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.well-come-box-left h3 {
+  font-size: 20px;
+}
+
+.well-come-box-left p {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.welcome-right-content {
+  color: #fff;
+  padding-right: 117px;
+  padding-left: 80px;
+  padding-top: 63px;
+}
+
+.welcome-right-content h4 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #05ab9d;
+}
+
+.welcome-right-content h2 {
+  font-size: 36px;
+  margin-bottom: 43px;
+}
+
+.welcome-right-content p {
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+.col-lg-6.High-Quality img {
+  margin-bottom: 22px;
+  width: 19%;
+}
+
+.col-lg-6.High-Quality {
+  margin-top: 40px;
+}
+
+.col-lg-6.High-Quality h3 {
+  font-size: 23px;
+}
+
+.col-lg-6.High-Quality p {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-top: 13px;
+}
+
+.get-free-btn a {
+  text-decoration: none;
+  background: #08c9ac;
+  color: #fff;
+  padding: 16px 44px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.get-free-btn {
+  margin-top: 47px;
+}
+
+#why-choose-right {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 516px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.why-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.why-list ul li {
+  font-size: 15px;
+  opacity: 0.6;
+  line-height: 34px;
+}
+
+.why-list ul li span {
+  margin-right: 7px;
+  color: #08c9ac;
+}
+/* AKHIR WELCOME KEVIN'S */
+
+/* COUNTER */
+#counter {
+  padding: 70px 0;
+}
+
+.counter-content {
+  background: #021f42;
+  padding: 31px 10px;
+  border-radius: 6px;
+}
+
+.counyer-box {
+  text-align: center;
+}
+
+.col-lg-3.counyer-box h3 {
+  color: #fff;
+  margin-top: 14px;
+  font-weight: 700;
+}
+
+.col-lg-3.counyer-box p {
+  color: #fff;
+  opacity: 0.6;
+}
+/* AKHIR COUNTER */
+
+/* SERVICE */
+#service {
+  padding: 70px 0;
+}
+
+.service-title {
+  text-align: center;
+}
+
+.service-title h3 {
+  color: #08c9ac;
+  font-size: 20px;
+}
+
+.service-title h2 {
+  margin-top: 11px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.service-box {
+  background: #021f42;
+  border-radius: 6px;
+  text-align: center;
+  padding: 31px 30px;
+}
+
+.service-box.pedingbotom {
+  padding-bottom: 52px;
+}
+
+.service-box:hover {
+  cursor: pointer;
+}
+
+.service-box img {
+  width: 60px;
+  height: 70px;
+  margin-bottom: 23px;
+  transition: all 0.5s ease;
+}
+
+.service-box:hover img {
+  transform: translateY(-10px);
+}
+
+.service-box h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.service-box p {
+  color: #fff;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.service-box a {
+  text-decoration: none;
+  color: #0ba193;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.service-content {
+  padding-top: 60px;
+}
+/* AKHIR SERVICE */
+
+/* GET FREE TRIAL */
+#get-free {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 430px;
+  background-attachment: fixed;
+  padding: 90px 0;
+}
+
+.get-content {
+  text-align: center;
+  color: #fff;
+}
+
+.get-content h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.get-content p {
+  opacity: 0.8;
+  padding: 0 166px;
+  margin-bottom: 45px;
+}
+
+.get-content a {
+  text-decoration: none;
+  background: #0a9c8f;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 27px;
+  font-weight: bold;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.get-content {
+  padding-top: 40px;
+}
+/* GET FREE TRIAL */
+
+/* FOOTER */
+#footer {
+  padding-top: 90px;
+  padding-bottom: 17px;
+}
+
+.footer-logo a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.footer-menu ul li {
+  display: inline-block;
+}
+
+.footer-menu ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  margin-right: 16px;
+}
+
+.footer-details-menu {
+  padding: 0;
+}
+
+.copyright {
+  color: #fff;
+}
+
+.footer-details-menu li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footer-details-menu li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 25px;
+}
+
+.boder-bottom {
+  border-bottom: 1px solid #032a5a !important;
+  padding-bottom: 50px;
+}
+/* AKHIR FOOTER */
+
+/* RESPONSIVE */
+@media (min-width: 320px) {
+  section {
+    overflow: hidden;
+  }
+  .hero-left-content {
+    margin-top: 0px;
+  }
+  .hero-right-content {
+    margin-top: 53px;
+  }
+  .navbar-light .navbar-toggler {
+    color: #0ec9ac;
+    border-color: #0ec9ac;
+    background: #0ec9ac;
+  }
+  .info-panel-item {
+    margin-bottom: 17px;
+  }
+  .trusted-title h2 {
+    font-size: 25px;
+  }
+  .trusted-brand-logo {
+    margin-bottom: 31px;
+  }
+  .well-come-box-left {
+    display: none;
+  }
+  #welcome-left-image {
+    height: 370px;
+    border-top-right-radius: 17px;
+  }
+  .welcome-right-content {
+    color: #fff;
+    padding-right: 0px;
+    padding-left: 22px;
+    padding-top: 61px;
+  }
+  .welcome-right-title h2 {
+    margin-bottom: 43px;
+    font-size: 27px;
+  }
+  #why-choose-right {
+    height: 240px;
+    margin-top: 48px;
+  }
+  .col-lg-3.counyer-box {
+    text-align: center;
+    margin-bottom: 22px;
+  }
+  .service-box {
+    margin-bottom: 20px;
+  }
+  .get-content {
+    padding-top: 0px;
+  }
+  .get-content h2 {
+    font-size: 27px;
+  }
+  .get-content p {
+    opacity: 0.8;
+    padding: 0 0px;
+    margin-bottom: 45px;
+  }
+  #get-free {
+    height: 480px;
+  }
+  .footer-logo {
+    margin-top: -3px;
+    text-align: center;
+    margin-bottom: 22px;
+  }
+  .footer-menu {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footer-menu ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 11px;
+  }
+  .text-right {
+    text-align: center !important;
+  }
+  ul.footer-details-menu {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  li.nav-item {
+    margin-left: 19px;
+  }
+  .hero-left-content h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 61px;
+    margin-bottom: 20px;
+  }
+  .hero-right-content {
+    margin-top: 0px;
+  }
+  #welcome-left-image {
+    height: 755px;
+    border-top-right-radius: 17px;
+  }
+  .well-come-box-left {
+    width: 61%;
+    background: #011732;
+    color: #fff;
+    padding: 36px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+  }
+  #why-choose-right {
+    height: 516px;
+    margin-top: 101px;
+  }
+  .get-content {
+    padding-top: 30px;
+  }
+  ul.footer-details-menu {
+    padding: 0;
+    text-align: left;
+  }
+  .text-right {
+    text-align: right !important;
+  }
+  .footer-logo {
+    margin-top: -3px;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+}
+/* AKHIR DARI SEGALANYA! */
